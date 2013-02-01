@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4421
+
+Syntax highlighting and simple folding for TeX and LaTeX log files.
+
+This Vim syntax plugin introduces the filetype "texlog". This filetype is detected automatically for files with the .log extension and the conventional magical first line:
+
+This is .*TeX.*, Version .*
+
+Should filetype detection fail, you can set it yourself with ":setf texlog".
+
